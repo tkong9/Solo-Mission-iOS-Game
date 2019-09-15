@@ -15,6 +15,7 @@
 		CD4BA658232C7C4E007AC4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4BA656232C7C4E007AC4AC /* Main.storyboard */; };
 		CD4BA65A232C7C4F007AC4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4BA659232C7C4F007AC4AC /* Assets.xcassets */; };
 		CD4BA65D232C7C4F007AC4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4BA65B232C7C4F007AC4AC /* LaunchScreen.storyboard */; };
+		CD4BA665232DB677007AC4AC /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD4BA664232DB677007AC4AC /* theBoldFont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CD4BA659232C7C4F007AC4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD4BA65C232C7C4F007AC4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD4BA65E232C7C4F007AC4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4BA664232DB677007AC4AC /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CD4BA654232C7C4E007AC4AC /* GameViewController.swift */,
 				CD4BA656232C7C4E007AC4AC /* Main.storyboard */,
 				CD4BA659232C7C4F007AC4AC /* Assets.xcassets */,
+				CD4BA664232DB677007AC4AC /* theBoldFont.ttf */,
 				CD4BA65B232C7C4F007AC4AC /* LaunchScreen.storyboard */,
 				CD4BA65E232C7C4F007AC4AC /* Info.plist */,
 			);
@@ -133,6 +136,7 @@
 			files = (
 				CD4BA658232C7C4E007AC4AC /* Main.storyboard in Resources */,
 				CD4BA64F232C7C4E007AC4AC /* GameScene.sks in Resources */,
+				CD4BA665232DB677007AC4AC /* theBoldFont.ttf in Resources */,
 				CD4BA65A232C7C4F007AC4AC /* Assets.xcassets in Resources */,
 				CD4BA65D232C7C4F007AC4AC /* LaunchScreen.storyboard in Resources */,
 				CD4BA651232C7C4E007AC4AC /* Actions.sks in Resources */,
