@@ -16,6 +16,7 @@
 		CD4BA65A232C7C4F007AC4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4BA659232C7C4F007AC4AC /* Assets.xcassets */; };
 		CD4BA65D232C7C4F007AC4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4BA65B232C7C4F007AC4AC /* LaunchScreen.storyboard */; };
 		CD4BA665232DB677007AC4AC /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD4BA664232DB677007AC4AC /* theBoldFont.ttf */; };
+		CD4BA667232ED318007AC4AC /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BA666232ED318007AC4AC /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CD4BA65C232C7C4F007AC4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD4BA65E232C7C4F007AC4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD4BA664232DB677007AC4AC /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+		CD4BA666232ED318007AC4AC /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CD4BA64E232C7C4E007AC4AC /* GameScene.sks */,
 				CD4BA650232C7C4E007AC4AC /* Actions.sks */,
 				CD4BA652232C7C4E007AC4AC /* GameScene.swift */,
+				CD4BA666232ED318007AC4AC /* GameOverScene.swift */,
 				CD4BA654232C7C4E007AC4AC /* GameViewController.swift */,
 				CD4BA656232C7C4E007AC4AC /* Main.storyboard */,
 				CD4BA659232C7C4F007AC4AC /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 			files = (
 				CD4BA653232C7C4E007AC4AC /* GameScene.swift in Sources */,
 				CD4BA655232C7C4E007AC4AC /* GameViewController.swift in Sources */,
+				CD4BA667232ED318007AC4AC /* GameOverScene.swift in Sources */,
 				CD4BA64D232C7C4E007AC4AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
