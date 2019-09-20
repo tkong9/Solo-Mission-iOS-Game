@@ -67,7 +67,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             background.size = self.size
             background.anchorPoint = CGPoint(x: 0.5, y: 0)
 //            background.position = CGPoint(x: self.size.width / 2.0, y: self.size.height / 2.0)
-            background.position = CGPoint(x: self.size.width / 2.0, y: self.size.height * CGFloat(1))
+            background.position = CGPoint(x: self.size.width / 2.0, y: self.size.height * CGFloat(i))
             background.zPosition = 0
             background.name = "Background"
             self.addChild(background)
@@ -383,5 +383,4 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             }
         }
     }
-    
 }
