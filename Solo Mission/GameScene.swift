@@ -12,7 +12,7 @@ import GameplayKit
 var gameScore: Int = 0
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
-    
+
     let scoreLabel = SKLabelNode(fontNamed: "The Bold Font")
     let player = SKSpriteNode(imageNamed: "playerShip")
     var levelNumber = 0
@@ -164,7 +164,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         enemy.physicsBody?.contactTestBitMask = PhysicsCategoris.Bullet | PhysicsCategoris.Player
         self.addChild(enemy)
         
-        let moveEnemy = SKAction.move(to: endPoint, duration: 1.5)
+        let moveEnemy = SKAction.move(to: endPoint, duration: 4)
         let deleteEnemy = SKAction.removeFromParent()
         let loseALiveAction = SKAction.run(loseALife)
         
@@ -177,8 +177,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let dy: CGFloat = endPoint.y - endPoint.y
         let amountToRotate = atan2(dx, dy)
         enemy.zRotation = amountToRotate
-        
-        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
